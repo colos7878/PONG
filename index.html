@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Zen</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.sound.min.js"></script>
+    <script src="p5.play.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/6.3.4/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.3.0/firebase-database.js"></script>
+
+
+    <script>
+      // La configuración de Firebase de tu aplicación werb.
+     
+      var firebaseConfig = {
+  apiKey: "AIzaSyBDkjnMQL1cgfAOgUy_e5kyatCWb6nM9gs",
+  authDomain: "pelota-en-movimiento-c2379.firebaseapp.com",
+  databaseURL: "https://pelota-en-movimiento-c2379-default-rtdb.firebaseio.com",
+  projectId: "pelota-en-movimiento-c2379",
+  storageBucket: "pelota-en-movimiento-c2379.appspot.com",
+  messagingSenderId: "667088533318",
+  appId: "1:667088533318:web:fb66104ba63d9844e0d747"
+};
+
+// Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+    </script>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+  </head>
+  <body>
+    <script src="sketch.js"></script>
+  </body>
+</html>
